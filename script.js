@@ -4,7 +4,7 @@ function compute() {
     const years = document.getElementById("years").value;
     const text = document.getElementById("text").value;
     if (principal <= 0) {
-        alert("Please, enter a positive number, that cannot be negative.");
+        alert("Please, enter a positive number, that cannot be negative or null.");
         document.getElementById("principal").focus();
         return false;
     }
